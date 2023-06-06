@@ -1,0 +1,22 @@
+
+.image-container {
+  float: right;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-logo{
+  position:relative;
+  left:20%;
+  
+}
+
+.heading{
+  font-family: 'Montserrat-Black';
+  font-size: 2rem;
+  line-height: 0.7;
+  font-weight: bolder;
+}

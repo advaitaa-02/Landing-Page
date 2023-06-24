@@ -1,70 +1,78 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Landing Page
 
-## Available Scripts
+This is a responsive web application using React.js which includes login and signup functionalities leveraging GoogleAuth, OTP signup and Firebase for secure backend operations. Onlu authorized/existing users are allowed to go to the home page.
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Authors
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [@Advaitaa Bhardwaj](https://www.github.com/advaitaa-02)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Deployment
+To deploy this application on your computer follow the following steps.
+ ``` 
+  1. Clone this repository on your computer
+  2. Open the main folder in VSCode or any other editor of your choice
+  3. Run these commands in the main project directory
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  ``` 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  ``` 
+ npm i
+ npm start
+  ``` 
+```
+  4. After running the above commands your app should start running on a port 3000.
+  5. After these steps, the webpage should look something like this:
+```
 
-### `npm run eject`
+![Screenshot (108)](https://github.com/advaitaa-02/Mood-o-Meter/assets/92883292/bb71bb22-f655-4c27-b1a3-2a3542d175d2)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+Email and password validation done by Firebase
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+![Screenshot (109)](https://github.com/advaitaa-02/Mood-o-Meter/assets/92883292/813e99ae-6c8b-4a7a-b6c6-bdef82150845)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+Accounts registered can be seen using firebase which also acts as 
+a secure backend
+```
+![Screenshot (110)](https://github.com/advaitaa-02/Mood-o-Meter/assets/92883292/a49ce424-650d-4f47-bcbe-a5caccb38f5d)
 
-## Learn More
+```
+Login with registered mobile number and OTP will be sent
+```
+![image](https://github.com/advaitaa-02/Mood-o-Meter/assets/92883292/545ac3ce-e0c0-4bd3-ae03-96431a040cda)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+Click on login button after you have made your account 
+and the screen should look something like this:
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Screenshot (122)](https://github.com/advaitaa-02/Mood-o-Meter/assets/92883292/2bbdba8a-b2af-4a14-b28e-44bfb24c18f3)
 
-### Code Splitting
+```
+Login function with registered Google account
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Screenshot (123)](https://github.com/advaitaa-02/Mood-o-Meter/assets/92883292/877f34ca-0677-4875-bc10-ef433fa8f4be)
 
-### Analyzing the Bundle Size
+```
+Hope page which is accessible to registred users only
+```
+![Screenshot (111)](https://github.com/advaitaa-02/Mood-o-Meter/assets/92883292/d66f641d-bc1f-4f16-80c2-a58a498fa71a)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+Forgot password link is sent to registered email address
+```
+![Screenshot (124)](https://github.com/advaitaa-02/Mood-o-Meter/assets/92883292/be95ef13-0be2-4aa7-9ec0-cdf85386e773)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![Screenshot (125)](https://github.com/advaitaa-02/Mood-o-Meter/assets/92883292/c31a1da7-4e37-4f6c-9e9a-e34fbca2e6f5)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
